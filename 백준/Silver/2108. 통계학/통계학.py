@@ -6,11 +6,7 @@ n=int(input())
 
 nList = [int(input()) for _ in range(n)]
 
-avg = sum(nList)/n
-if avg >= 0:
-    print(int(avg + 0.5))
-else:
-    print(int(avg - 0.5))
+print(round(sum(nList)/n))
 
 # print(nList)
 nList.sort()
